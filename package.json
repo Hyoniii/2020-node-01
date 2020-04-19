@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"supervisor 01.app"
+    "start": "supervisor 01.app",
+    "dev" :"node 01.app",
+    "build": "pm2 01.app"
   },
   "repository": {
     "type": "git",
