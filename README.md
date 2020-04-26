@@ -23,9 +23,19 @@ npm i express
 ## supervisor 설치
 ```bash
 #super visor 모듈을 global 옵션을 통해서 설치한다.(한번만)
+#like nodemon
 npm i -g supervisor
 ```
 
 ## app.js 생성
 ```
 ```
+
+
+
+# 2020.04.26
+
+## post 진행하려ㅕ면 폼 필요 -> public폴더
+## static구현
+### 유즈는 미들웨어 , 서버구동과 라우터 중간에 들어가고 함수와 콜백이 들어감
+### 미들웨어에서 res(리턴)을 만나면 라우터까지 가지 못하고 끝난다. 왜, 리턴을 했으니까
